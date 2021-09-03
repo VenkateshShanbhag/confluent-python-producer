@@ -6,7 +6,7 @@ import ccloud_lib
 import schedule
 import time
 
-batch_size = 10
+batch_size = 1
 
 
 def schedule_kafka_producer(i, batch):
@@ -54,7 +54,7 @@ if __name__ == '__main__':
                   .format(msg.topic(), msg.partition(), msg.offset()))
 
 
-    json_file = open('input01.json', "r")
+    json_file = open('input02.json', "r")
     data = json.load(json_file)
     import pycron
     import time

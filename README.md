@@ -14,5 +14,5 @@ Your record has an Invalid BSON field name. Please check Mongo documentation for
 {"timestamp":{"$date":"2021-08-09T01:50:24.000Z"},"reg_num":"Lamprotornis nitens","lat":57.7197857,"lon":12.933356}
 
 ## Error screenshots 
-<img src="./error/error.png">
+<img src="./error/error.png"/>
 
